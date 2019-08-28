@@ -1,0 +1,41 @@
+server:
+  port: 1000
+  servlet:
+    context-path: /config
+  ssl:
+    key-store: classpath:keystore.p12
+    key-store-password: Pccw@190520
+    krystoreType: PKCS12
+    keyAlias: tomcat
+
+security.requir-ssl: true
+
+config:
+  symbol: "Person \n list"
+  symbol2: 'Person \n list'
+  person:
+    maps:
+      p1: tom
+    list: [1,2,3]
+    mail: asd@gmail.com
+  random: ${random.int[100,4000]}
+
+spring.mvc.view.prefix: /WEB-INF/jsp/
+spring.mvc.view.suffix: .jsp
+
+datasource.jw.url:
+datasource.jw.user:
+datasource.jw.password:
+datasource.jw.connectionFactoryClassName: oracle.jdbc.pool.OracleDataSource
+datasource.jw.connectionPoolName:
+datasource.jw.initialPoolSize: 1
+datasource.jw.minPoolSize: 1
+datasource.jw.maxPoolSize: 300
+datasource.jw.fastConnectionFailoverEnabled: true
+datasource.jw.abandonedConnectionTimeout: 0
+datasource.jw.connectionWaitTimeout: 120
+datasource.jw.validateConnectionOnBorrow: true
+datasource.jw.maxConnectionReuseTime: 200
+datasource.jw.validationQuery: select 1 from dual
+datasource.jw.showSql: true
+datasource.jw.databasePlatform: org.hibernate.dialect.Oracle12cDialect
