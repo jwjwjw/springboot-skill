@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "config.person",
+      "type": "com.jw.config.Person",
+      "sourceType": "com.jw.config.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "config.person.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.jw.config.Person"
+    },
+    {
+      "name": "config.person.mail",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.Person"
+    },
+    {
+      "name": "config.person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.jw.config.Person"
+    },
+    {
+      "name": "config.person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.Person"
+    }
+  ],
+  "hints": []
+}

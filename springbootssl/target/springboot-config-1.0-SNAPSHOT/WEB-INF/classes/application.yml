@@ -1,0 +1,18 @@
+server:
+  port: 1000
+  servlet:
+    context-path: /config
+
+
+config:
+  symbol: "Person \n list"
+  symbol2: 'Person \n list'
+  person:
+    maps:
+      p1: tom
+    list: [1,2,3]
+    mail: asd@gmail.com
+  random: ${random.int[100,4000]}
+
+spring.mvc.view.prefix: /WEB-INF/jsp/
+spring.mvc.view.suffix: .jsp

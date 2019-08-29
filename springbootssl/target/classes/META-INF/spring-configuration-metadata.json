@@ -1,0 +1,125 @@
+{
+  "groups": [
+    {
+      "name": "config.person",
+      "type": "com.jw.config.Person",
+      "sourceType": "com.jw.config.Person"
+    },
+    {
+      "name": "datasource.jw",
+      "type": "com.jw.config.RepositoryConfig",
+      "sourceType": "com.jw.config.RepositoryConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "config.person.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.jw.config.Person"
+    },
+    {
+      "name": "config.person.mail",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.Person"
+    },
+    {
+      "name": "config.person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.jw.config.Person"
+    },
+    {
+      "name": "config.person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.Person"
+    },
+    {
+      "name": "datasource.jw.abandoned-connection-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jw.config.RepositoryConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "datasource.jw.connection-factory-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.RepositoryConfig"
+    },
+    {
+      "name": "datasource.jw.connection-pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.RepositoryConfig"
+    },
+    {
+      "name": "datasource.jw.connection-wait-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jw.config.RepositoryConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "datasource.jw.database-platform",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.RepositoryConfig"
+    },
+    {
+      "name": "datasource.jw.fast-connection-failover-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.jw.config.RepositoryConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "datasource.jw.initial-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jw.config.RepositoryConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "datasource.jw.max-connection-reuse-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jw.config.RepositoryConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "datasource.jw.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jw.config.RepositoryConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "datasource.jw.min-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jw.config.RepositoryConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "datasource.jw.password",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.RepositoryConfig"
+    },
+    {
+      "name": "datasource.jw.show-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.RepositoryConfig"
+    },
+    {
+      "name": "datasource.jw.url",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.RepositoryConfig"
+    },
+    {
+      "name": "datasource.jw.user",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.RepositoryConfig"
+    },
+    {
+      "name": "datasource.jw.validate-connection-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.jw.config.RepositoryConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "datasource.jw.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.jw.config.RepositoryConfig"
+    }
+  ],
+  "hints": []
+}
